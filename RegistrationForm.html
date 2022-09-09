@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="frm-section">
+        <div class="container frm-container">
+            <form action="" name="frm" class="p-5" id="frm" class="">
+            <h1 class="heading">Registration Form</h1>
+            <div class="form-group row">
+                <div class="col-md-12">
+                    <label for="fname">First Name</label>
+                    <input id="fname" type="text" class="form-control" name="fname">
+                    <span id="check_fname" class="text-danger"> </span>
+                </div>
+    
+            </div>
+            <div class="form-group row">
+                <div class="col-md-12">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" class="form-control" name="lname">
+                    <span id="check_lname" class="text-danger"> </span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-12">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" class="form-control" name="email">
+                    <span id="check_email" class="text-danger"> </span>
+                </div>
+    
+            </div>
+            <div class="form-group row">
+                <div class="col-md-12">
+                    <label for="mobile">Mobile</label>
+                    <input type="text" id="mobile" class="form-control">
+                    <span id="check_mobile" class="text-danger"> </span>
+                </div>
+    
+            </div>
+            
+            <div class="form-group row">
+                <div class="col-md-12">
+                    <label for="address">Address</label>
+                    <Textarea name="address" id="address" class="form-control"></Textarea>
+                    <span id="check_address" class="text-danger"> </span>
+                </div>
+            </div>
+           <div class="form-group row">
+            
+            <div class="col-md-12">
+                <label for="selection">Choose a car:</label>
+                <select id="selection" class="form-control" name="selection">
+                    <option value="">--Select--</option>
+                    <option value="volvo">Option 1</option>
+                    <option value="saab">Option 2</option>
+                    <option value="fiat">Option 3</option>
+                    <option value="audi">Option 4</option>
+                </select>
+                <span id="check_selection" class="text-danger"> </span>
+                
+            </div>
+
+
+            <div class="form-group row">
+                <div class="col-12 mt-2">
+                    <label>What are your hobies?</label><br>
+                    <input  type="checkbox" name="gaming" id="checkbox1" class="form-check-input">
+                    <label class="form-check-label" for="gaming">Gaming</label><br>
+                    <input  type="checkbox" name="reading" id="checkbox2" class="form-check-input">
+                    <label class="form-check-label" for="reading">Reading</label><br>
+                    <input  type="checkbox" name="coding" id="checkbox3" class="form-check-input">
+                    <label class="form-check-label" for="coding">Coding</label><br>
+                    <span id="check_checkbox" class="text-danger"></span>
+                </div>
+            </div>
+            
+            <div class="form-group row">
+                <div class="col-12 mt-2">
+                    <label>Gender</label><br>
+                    <input  type="radio" name="gender" value="male"id="radio1" class="form-check-input">
+                    <label class="form-check-label" for="gender">Male</label>
+                    <input  type="radio" name="gender" value="female" id="radio2" class="form-check-input">
+                    <label class="form-check-label" for="gender">Female</label><br>
+                    <span id="check_radio" class="text-danger"> </span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="form-grpup row mt-2">
+            <div class="col-md-12">
+                <label for="age">Age</label>
+                <input type="text" name="age" id="age" class="form-control">
+                <span id="check_age" class="text-danger"></span>
+            </div>
+            
+        </div>
+        <div class="form-grpup row mt-2">
+            <div class="col-md-12">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="form-control">
+                <span id="check_password" class="text-danger"></span>
+            </div>
+            
+        </div>
+        <div class="form-grpup row mt-2">
+            <div class="col-md-12">
+                <label for="cpassword">Confirm Password</label>
+                <input type="password" id="cpassword" class="form-control">
+                <span id="check_cpassword" class="text-danger"></span>
+            </div>
+            
+        </div>
+        <div class="form-grpup row mt-2">
+            <div class="col-md-12">
+              <input type="submit" class="btn btn-primary col-md-12">
+            </div>
+            
+        </div>
+    </form>
+    </div>
+
+
+</body>
+<script src="jquery-3.6.1.min.js"></script>
+<script src="validation.js"></script>
+
+</html>

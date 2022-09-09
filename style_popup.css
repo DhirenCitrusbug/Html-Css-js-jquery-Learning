@@ -1,0 +1,39 @@
+.buttonbox{
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+body{
+    background-color: grey;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    position: fixed;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 5%;
+    display: none;
+    box-shadow: 0px 0px 25px 3px rgba(0, 0, 0,0.5);
+    
+}
+
+.heading button{
+    height: 23px;
+    background-color: aliceblue;
+    border: none;
+}
+
+.heading button:hover{
+    color: aliceblue;
+}
+

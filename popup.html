@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style_popup.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="buttonbox">
+        <button onclick="show()" class="btn btn-warning">
+            Click
+        </button>
+    </div>
+
+    <div class="box">
+        <div class="heading">
+            <h1>Heading</h1>
+            <button onclick="hide()">X</button>
+        </div>
+        <div class="para">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsum molestias reiciendis. Ducimus, expedita ea error harum doloremque aliquam excepturi, nobis vero quaerat dolor tempora libero eum cupiditate alias, aperiam voluptas reprehenderit vitae? Deserunt voluptates at in maiores magni hic ipsa dolores veritatis fugiat ipsam accusantium, quaerat est inventore assumenda.
+            </p>
+        </div>
+    </div>
+</body>
+<script>
+    function show(){
+        document.querySelector('.box').style.display = "block"
+    };
+    function hide(){
+        document.querySelector('.box').style.display = "none"
+    }
+</script>
+</html>
